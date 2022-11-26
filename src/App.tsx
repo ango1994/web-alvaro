@@ -3,7 +3,7 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Portfolio } from "./components/Portfolio";
 import { QueHago } from "./components/QueHago";
-import { Contacto } from "./components/QueHago copy";
+import { Contacto } from "./components/Contacto";
 
 function App() {
     return (
