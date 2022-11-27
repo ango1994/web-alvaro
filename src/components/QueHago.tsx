@@ -1,8 +1,21 @@
+import "./QueHago.css";
+import image from "../public/fotos ango/coche-9.jpg";
+
 export function QueHago() {
     return (
         <article>
-            <h2>Qué hago?</h2>
-            <p>1.0</p>
+            <img src={image} alt="" />
+            <video width="320" height="240" controls autoPlay>
+                <source
+                    src="public\fotos ango\video web.mp4"
+                    type="video/mp4"
+                />
+            </video>
+            <div className="head">
+                <h2 className="subtitle">QUE HAGO?</h2>
+                <p className="index">1.0</p>
+            </div>
+
             <h3>Lorem Ipsum Dolor Amet</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
